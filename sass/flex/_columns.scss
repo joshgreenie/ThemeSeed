@@ -1,0 +1,179 @@
+div#flex {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  .section {
+    padding: 50px 0;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    > * {
+      font-size: initial;
+    }
+  }
+}
+
+
+.row-wrapper{
+  clear: both;
+  &.columns-1 .flex-item {
+    clear: both;
+  }
+  @for $i from 1 to 10 {
+    &.columns-#{$i} .flex-item {
+        @include j-column(1/$i, 0, $i, 5/$i);
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 3 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/1, 0, 1, 0);
+        }
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 4 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/2, 0, 2, 5);
+        }
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 5 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/3, 0, 3, 2);
+        }
+      }
+    }
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 6 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/3, 0, 3, 2);
+        }
+      }
+      @if $i == 7 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/3, 0, 3, 2);
+        }
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 8 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/4, 0, 4, 2);
+        }
+      }
+      @if $i == 9 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/4, 0, 4, 2);
+        }
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-tablet) {
+      @if $i == 10 {
+        &.columns-#{$i} .flex-item {
+          @include j-column(1/5, 0, 5, 2);
+        }
+      }
+    }
+
+    @media screen and (max-width: $breakpoint-small-tablet) {
+      &.columns-#{$i} .flex-item {
+        @include j-column(1, 0, 1, 1);
+      }
+    }
+  }
+}
+
+
+//.column-wrapper {
+//  display: flex;
+//  justify-content: space-between;
+//  flex-wrap: wrap;
+//  .column {
+//    border: 1px solid #555;
+//    text-align: center;
+//    transition: all .35s ease-in-out;
+//    position: relative;
+//    a {
+//      text-decoration: none;
+//      color: #555;
+//    }
+//    p {
+//      margin-bottom: 0;
+//    }
+//    &:hover {
+//      background: #00456b;
+//      .icon {
+//        opacity: 0;
+//      }
+//      .hover-icon {
+//        opacity: 1;
+//      }
+//      h1, p {
+//        color: white;
+//      }
+//    }
+//    & * {
+//      transition: all .35s ease-in-out;
+//    }
+//    .icon {
+//      position: absolute;
+//      z-index: 1;
+//      width: 100%;
+//      margin: 10px 0;
+//      opacity: 1;
+//    }
+//    .hover-icon {
+//      position: absolute;
+//      width: 100%;
+//      margin: 10px 0;
+//      opacity: 0;
+//    }
+//    .column-content {
+//      margin-top: 110px;
+//      margin-bottom: 21px;
+//    }
+//  }
+//}
+//.count-two .column {
+//  flex-basis: calc(100% / 2 - 30px);
+//}
+//.count-three .column {
+//  flex-basis: calc(100% / 3 - 20px);
+//}
+//.count-four .column {
+//  flex-basis: calc(100% / 4 - 10px);
+//  margin-bottom: 15px;
+//}
+//@media (max-width: $breakpoint-tablet) {
+//  .count-four .column {
+//    flex-basis: calc(100% / 2 - 10px);
+//  }
+//}
+//@media (max-width: $breakpoint-small-tablet) {
+//  .count-four .column,
+//  .count-three .column,
+//  .count-two .column {
+//    flex-basis: 100%;
+//  }
+//  .count-four .column:nth-child(2n+1):nth-last-child(-n+2),
+//  .count-four .column:nth-child(2n+1):nth-last-child(-n+2) ~ .column {
+//    margin-bottom: 15px;
+//  }
+//  .count-four .column:last-child {
+//    margin-bottom: 0 !important;
+//  }
+//  .count-three .column,
+//  .count-two .column {
+//    margin-bottom: 15px;
+//    &:last-child {
+//      margin-bottom: 0;
+//    }
+//  }
+//}

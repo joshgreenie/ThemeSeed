@@ -1,0 +1,63 @@
+
+/*===================================
+Dont show over 980px - Menu Styles here
+===================================*/
+
+@media (min-width: $breakpoint-tablet) {
+
+}
+
+
+
+
+/*===================================
+  Media Queries
+===================================*/
+
+@media (max-width: $breakpoint-desktop) {
+  .container {
+    max-width:1150px;
+  }
+
+  @import "desktop";
+
+}
+
+
+@media (max-width: $breakpoint-small-desktop) {
+  .container {
+    max-width:950px;
+  }
+
+
+  @import "sm-desktop";
+}
+
+
+@media (max-width: $breakpoint-tablet) {
+  .container {
+    max-width:750px;
+  }
+
+  @import "tablet";
+}
+
+
+@media (max-width: $breakpoint-small-tablet) {
+  .container {
+    max-width:450px;
+  }
+
+  @import "sm-tablet";
+}
+
+
+@media (max-width: $breakpoint-phone) {
+  .container {
+    max-width:280px;
+  }
+
+  @import "phone";
+}
+
+

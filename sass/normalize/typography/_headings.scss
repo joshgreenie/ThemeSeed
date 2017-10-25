@@ -1,0 +1,64 @@
+h1, h2, h3 {
+	clear: both;
+}
+
+.h1,
+h1 {
+  font-family:$heading_h1_family;
+  font-weight:$heading_h1_weight;
+  font-size:$heading_h1_size;
+  color:$heading_h1_color ;
+  line-height:$heading_h1_line-height;
+  margin:$heading_h1_margins;
+}
+
+
+.h2,
+h2 {
+  font-family:$heading_h2_family;
+  font-weight:$heading_h2_weight;
+  font-size:$heading_h2_size;
+  color:$heading_h2_color ;
+  line-height:$heading_h2_line-height;
+  margin:$heading_h2_margins;
+}
+
+.h3,
+h3 {
+  font-family:$heading_h3_family;
+  font-weight:$heading_h3_weight;
+  font-size:$heading_h3_size;
+  color:$heading_h3_color ;
+  line-height:$heading_h3_line-height;
+  margin:$heading_h3_margins;
+}
+
+.h4,
+h4 {
+  font-family: $heading_h4_family;
+  font-weight: $heading_h4_weight;
+  font-size: $heading_h4_size;
+  color: $heading_h4_color;
+  line-height: $heading_h4_line-height;
+  margin: $heading_h4_margins;
+}
+
+.h5,
+h5 {
+  font-family:$heading_h5_family;
+  font-weight:$heading_h5_weight;
+  font-size:$heading_h5_size;
+  color:$heading_h5_color ;
+  line-height:$heading_h5_line-height;
+  margin:$heading_h5_margins;
+}
+
+.h6,
+h6{
+  font-family:$heading_h6_family;
+  font-weight:$heading_h6_weight;
+  font-size:$heading_h6_size;
+  color:$heading_h6_color ;
+  line-height:$heading_h6_line-height;
+  margin:$heading_h6_margins;
+}

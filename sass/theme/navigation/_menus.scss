@@ -1,0 +1,107 @@
+.site-branding {
+  width: 300px;
+  float: left;
+}
+
+.main-navigation {
+  display: block;
+  float: left;
+  width: calc(100% - 350px);
+  ul {
+    ul {
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      float: left;
+      position: absolute;
+      top: 1.5em;
+      left: -999em;
+      z-index: 99999;
+      //@include transition(all .35s ease);
+      ul {
+        left: -999em;
+        top: 0;
+      }
+      li {
+        &:hover > ul,
+        &.focus > ul {
+          left: 100%;
+        }
+      }
+      &:hover > a,
+      &.focus > a {
+      }
+      a:hover,
+      a.focus {
+      }
+    }
+    li:hover > ul,
+    li.focus > ul {
+      left: auto;
+    }
+  }
+  li {
+    position: relative;
+    &:hover > a,
+    &.focus > a {
+    }
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_ancestor > a,
+  .current-menu-ancestor > a {
+
+  }
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: block;
+  }
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+  .site-main {
+    margin: 0 0 1.5em;
+    overflow: hidden;
+  }
+
+  .nav-previous {
+    float: left;
+    width: 50%;
+  }
+
+  .nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+}
+
+ul#primary-menu {
+  margin-top: 30px;
+  text-align: right;
+  li {
+    float: none;
+    display: inline-block;
+    a {
+      padding: 5px 30px;
+    }
+  }
+}

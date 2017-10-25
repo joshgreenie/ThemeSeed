@@ -1,0 +1,17 @@
+/*
+Theme Name: Firetoss Theme
+
+This is an additional style sheet not connected to your SCSS files,
+this allows you to add either post live edits, or your own changes,
+without worrying about messing up the compilation of your sass
+
+
+Note: Set Up Persistence with DevTools Workspaces
+Don't manually copy changes to local files. Use workspaces to persist changes made in DevTools to your local resources.
+Stage your local files to your browser. Map files to URLs.
+Once persistent workspaces are set-up, style changes made in the Elements panel are persisted automatically; DOM changes aren't. Persist element changes in the Sources panel instead.
+
+https://developers.google.com/web/tools/setup/setup-workflow?hl=en
+
+                                                                */
+

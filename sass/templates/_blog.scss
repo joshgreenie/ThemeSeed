@@ -1,0 +1,9 @@
+.content-sidebar {
+  display: flex;
+  main {
+    flex-basis: calc(100% - 300px);
+  }
+  .sidebar-wrapper {
+    flex-basis: 300px;
+  }
+}
