@@ -47,8 +47,10 @@
 
 button.slick-prev.slick-arrow {
   left: 0;
+  z-index: 99999;
 }
 
 button.slick-next.slick-arrow {
   right: 0;
+  z-index: 99999;
 }

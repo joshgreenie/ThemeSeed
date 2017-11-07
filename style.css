@@ -3694,6 +3694,7 @@ Dont show over 980px - Menu Styles here
     max-width: 1150px; } }
 
 @media (max-width: 1200px) {
+
   .container {
     max-width: 950px; } }
 
@@ -3709,4 +3710,4 @@ Dont show over 980px - Menu Styles here
   .container {
     max-width: 280px; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */v

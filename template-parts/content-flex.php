@@ -17,6 +17,8 @@ $contentOptions = array(
     'gallery' => 'gallery',
 
 );
+
+
 // check if the flexible content field has rows of data
 
 if (have_rows('flexible_fields')):
@@ -25,6 +27,8 @@ if (have_rows('flexible_fields')):
     while (have_rows('flexible_fields')) : the_row();
         // Identify the selected layout
         if (get_row_layout() == 'shelf'):
+
+
             $title = get_sub_field('title');
             $title_element = get_sub_field('title_element');
             $title_element_color = get_sub_field('title_element_color');
@@ -48,7 +52,7 @@ if (have_rows('flexible_fields')):
             $header_alignment = get_sub_field('header_alignment');
             $add_overlay = get_sub_field('add_overlay');
             $description_max_width = get_sub_field('description_max_width');
-            ?>
+        ?>
 <div class="section section-<?=$i;?> <?=$extra_section_class;?>" style="
 <?= $background_image ? "background-image:url($background_imageURL);" : "";?>
 <?= $background_position ? "background-position:$background_position;" : "";?>

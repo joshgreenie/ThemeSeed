@@ -1,35 +1,23 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Josh
- * Date: 9/19/2017
- * Time: 10:43 AM
- */
 
-
-$images = get_sub_field('gallery');
-$columns = get_sub_field('columns');
-$captions = get_sub_field('captions');
-$links = get_sub_field('links');
-$lightbox = get_sub_field('lightbox');
-
-if( $images ): ?>
+$args = ft_get_sub_fields(array('lightbox','links','captions', 'columns','gallery'));
+if( $args->gallery ): ?>
     <div class="gallery"></div>
-    <ul class="gallery-columns-<?=$columns;?>">
-        <?php foreach( $images as $image ): ?>
+    <ul class="gallery-columns-<?= $args->columns;?>">
+        <?php foreach(  $args->gallery as $g ): ?>
             <li class="gallery-item">
-                <?php if($links):?>
-                <a href="<?php echo $image['url']; ?>" target="_blank">
-                <?php elseif($lightbox):?>
+                <?php if( $args->links):?>
+                <a href="<?php echo $g['url']; ?>" target="_blank">
+                <?php elseif( $args->lightbox):?>
                 <a href="#" data-featherlight="
-                <img src='<?php echo $image['url']; ?>' alt='<?php echo $image['alt']; ?>'>">
+                <img src='<?php echo $g['url']; ?>' alt='<?php echo $g['alt']; ?>'>">
                 <?php endif; ?>
-                    <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" />
-                <?php if($links || $lightbox):?>
+                    <img src="<?php echo $g['sizes']['thumbnail']; ?>" alt="<?php echo $g['alt']; ?>" />
+                <?php if( $args->links ||  $args->lightbox):?>
                 </a>
                 <?php endif; ?>
-                <? if($captions):?>
-                    <p><?php echo $image['caption']; ?></p>
+                <? if( $args->captions):?>
+                    <p><?php echo $g['caption']; ?></p>
                 <?php endif; ?>
             </li>
         <?php endforeach; ?>

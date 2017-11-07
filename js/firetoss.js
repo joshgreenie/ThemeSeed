@@ -45,6 +45,7 @@ function checkMq() {
     }
 }
 
+
 (function ($) {
     $(document).ready(function () {
 
@@ -55,29 +56,11 @@ function checkMq() {
         $('header nav').meanmenu();
 
 
-
-////////////////////////////////////////
-//        Owl Carousel                //
-////////////////////////////////////////
-
-        // $('.carousel-content').slick({
-        //     infinite: true,
-        //     slidesToShow: 1,
-        //     dots: true,
-        // });
-        //
-        // $('.carousel-hero').slick({
-        //     dots: true,
-        //     infinite: true,
-        //     slidesToShow: 1,
-        // });
-
         checkMq();
 
         $(window).on('resize', function(){
             checkMq();
         });
-
 
 });
 })(jQuery);

@@ -76,3 +76,28 @@ add_filter('acf/fields/flexible_content/layout_title', 'my_layout_title', 10, 4)
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
 
 
+/*************************************************************/
+/*   simplify get(_sub)_field                               */
+/***********************************************************/
+function ft_get_options($fields){
+    $args = (object)NULL;
+    if(is_array($fields)) : foreach($fields as $field) :
+        $args->{$field} = get_field($field, "options");
+    endforeach; endif;
+    return $args;
+}
+
+function ft_get_sub_fields($fields, $id = null){
+    $obj = (object)NULL;
+    foreach($fields as $field) {
+        $obj->{$field} = get_sub_field($field);
+    }
+    return $obj;
+}
+function ft_get_fields($fields){
+    $obj = (object)NULL;
+    foreach($fields as $field) {
+        $obj->{$field} = get_field($field);
+    }
+    return $obj;
+}

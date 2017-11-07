@@ -9,9 +9,9 @@ if (have_rows('content_slider_slides')): ?>
 <div class="slider-wrapper flex-item">
     <?php if ($slider_option == 'slick'): ?>
     <div class="slider-flex slick-slider <?= $unique_class; ?> carousel-content">
-        <?php elseif ($slider_option == 'owl'): ?>
-        <div class="slider-flex owl-carousel <?= $unique_class; ?> owl-carousel-content">
-            <?php endif; ?>
+    <?php elseif ($slider_option == 'owl'): ?>
+    <div class="slider-flex owl-carousel <?= $unique_class; ?> owl-carousel-content">
+    <?php endif; ?>
             <?php // loop through the rows of data
             while (have_rows('content_slider_slides')) : the_row();
                 $slider_image = get_sub_field('slider_image');
@@ -32,6 +32,7 @@ if (have_rows('content_slider_slides')): ?>
                 <?php endif; ?>
                 </div>
             <?php endwhile; ?>
+
         </div>
         <?php else :
             // no rows found
