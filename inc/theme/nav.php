@@ -5,5 +5,6 @@ function firetoss_nav_setup() {
         'primary' => esc_html__( 'Primary', 'firetoss_seed' ),
     ) );
 }
-add_action( 'after_setup_theme', 'firetoss_seed_setup' );
+
+add_action( 'after_setup_theme', 'firetoss_nav_setup' );
 

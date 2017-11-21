@@ -1,11 +1,11 @@
 @mixin desktop(){
-  @media screen and (min-width: $breakpoint-tablet) {
+  @media screen and (min-width: $breakpoint-small-desktop) and (max-width: $breakpoint-desktop)  {
     @content;
   }
 }
 
 @mixin desktop-sm(){
-  @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-fablet) {
+  @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-small-desktop) {
     @content;
   }
 }
@@ -16,8 +16,16 @@
   }
 }
 
+
+@mixin tablet-sm(){
+  @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-small-tablet) {
+    @content;
+  }
+}
+
+
 @mixin mobile(){
-  @media screen and (max-width: $breakpoint-small-tablet) {
+  @media screen and (max-width: $breakpoint-phone) {
     @content;
   }
 }

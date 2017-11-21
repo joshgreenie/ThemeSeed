@@ -1,0 +1,16 @@
+@mixin flex-column($num, $col_spacing:10, $row_spacing:10){
+  $width: 100% / $num;
+  $pad: $col_spacing * ($num - 1) / $num * 2;
+
+  flex-basis: calc(#{$width} - #{$pad}px);
+  min-width: calc(#{$width} - #{$pad}px);
+  margin: #{$row_spacing / 2}px #{$col_spacing}px;
+
+  &:nth-child(#{$num}n + 1){
+    margin-left: 0;
+  }
+
+  &:nth-child(#{$num}n){
+    margin-right: 0;
+  }
+}

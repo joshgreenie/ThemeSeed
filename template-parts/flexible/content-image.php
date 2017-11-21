@@ -11,6 +11,7 @@ $image = get_sub_field('image');
 $imageURL = $image['url'];
 $imageALT = $image['alt'];
 
+$args = ft_get_sub_fields(array('link', 'image'))
 ?>
 <div class="image-content flex-item">
     <?= $link ? "<a href='$link'>" : ""; ?>

@@ -15,7 +15,7 @@ $contentOptions = array(
     'posts' => 'posts',
     'image' => 'image',
     'gallery' => 'gallery',
-
+    'card' => 'card',
 );
 
 
@@ -30,10 +30,10 @@ if (have_rows('flexible_fields')):
 
 
             $title = get_sub_field('title');
-            $title_element = get_sub_field('title_element');
+            $title_element = get_sub_field('title_element_type');
             $title_element_color = get_sub_field('title_element_color');
             $subtitle = get_sub_field('subtitle');
-            $subtitle_element = get_sub_field('subtitle_element');
+            $subtitle_element = get_sub_field('subtitle_element_type');
             $subtitle_element_color = get_sub_field('subtitle_element_color');
             $background_color = get_sub_field('background_color');
             $background_image = get_sub_field('background_image');
@@ -80,11 +80,10 @@ if (have_rows('flexible_fields')):
             <?=$description;?>
         </div>
         <?php endif;?>
+        <?php if (have_rows('flexible_content_flexible_fields')): ?>
         <div class="row-wrapper columns-<?=$number_of_columns;?>">
-        <?php if (have_rows('flexible_content_flexible_fields')):
-                // loop through the rows of data
 
-                while (have_rows('flexible_content_flexible_fields')) : the_row();
+             <?php   while (have_rows('flexible_content_flexible_fields')) : the_row();
                     // Identify the selected layout
                     $rowLayout = get_row_layout();
                     // If a layout is selected
@@ -98,11 +97,10 @@ if (have_rows('flexible_fields')):
                     else :
                         // No layout selected
                     endif;
-                endwhile;
-            else :
+                endwhile; ?>
+        </div>
+        <?php else :
             endif; ?>
-
-    </div>
 
     <?php if($container): ?>
     </div>

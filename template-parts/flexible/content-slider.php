@@ -1,38 +1,53 @@
-<?
-$clone_slider = get_sub_field('content_slider_content_slider');
-$container = get_sub_field('content_slider_container_in_slide');
-$unique_class = get_sub_field('content_slider_unique_class');
-$slides = $clone_slider['slides'];
-$slider_option = get_field('slider_option', 'option');
+<?php
+//$clone_slider = get_sub_field('content_slider_content_slider');
+//$container = get_sub_field('content_slider_container_in_slide');
+//$unique_class = get_sub_field('content_slider_unique_class');
+//$slider_option = get_field('slider_option', 'option');
+
+$args = ft_get_sub_fields(array(
+        'content_slider_content_slider',
+        'content_slider_container_in_slide',
+        'content_slider_unique_class',
+        'post_loop_order'
+));
+$slides = $args->content_slider_content_slider['slides'];
+
+$oArgs = ft_get_options(array('slider_option'));
+
 
 if (have_rows('content_slider_slides')): ?>
 <div class="slider-wrapper flex-item">
-    <?php if ($slider_option == 'slick'): ?>
-    <div class="slider-flex slick-slider <?= $unique_class; ?> carousel-content">
-    <?php elseif ($slider_option == 'owl'): ?>
-    <div class="slider-flex owl-carousel <?= $unique_class; ?> owl-carousel-content">
+    <?php if ($oArgs->slider_option == 'slick'): ?>
+    <div class="slider-flex slick-slider <?= $args->content_slider_unique_class; ?> carousel-content">
+    <?php elseif ($oArgs->slider_option == 'owl'): ?>
+    <div class="slider-flex owl-carousel <?= $args->content_slider_unique_class; ?> owl-carousel-content">
     <?php endif; ?>
             <?php // loop through the rows of data
             while (have_rows('content_slider_slides')) : the_row();
-                $slider_image = get_sub_field('slider_image');
-                $slider_header = get_sub_field('slider_header');
-                $slider_subheader = get_sub_field('slider_subheader');
-                $slider_alignment = get_sub_field('slider_alignment');
+//                $slider_image = get_sub_field('slider_image');
+//                $slider_header = get_sub_field('slider_header');
+//                $slider_subheader = get_sub_field('slider_subheader');
+//                $slider_alignment = get_sub_field('slider_alignment');
+                $subArgs = ft_get_sub_fields(array(
+                    'slider_image',
+                    'slider_header',
+                    'slider_subheader',
+                    'slider_alignment'
+                ));
                 ?>
-                <div class="item slick-slide" <?= $slider_alignment ? "style='text-align:$slider_alignment;'" : ""; ?>>
-                    <?php if ($container): ?>
-                    <div class="container">
-                        <?php endif; ?>
-                        <img class="slide-image" src="<?= $slider_image ?>">
-                        <h2><?= $slider_header ?></h2>
-                        <h4><?= $slider_subheader ?></h4>
-                        <?php get_template_part('template-parts/flexible/content', 'button'); ?>
-                        <?php if ($container): ?>
-                    </div>
-                <?php endif; ?>
+                <div class="item slick-slide" <?= $subArgs->slider_alignment ? "style='text-align:$subArgs->slider_alignment;'" : ""; ?>>
+                    <?php if ($args->content_slider_container_in_slide): ?>
+                        <div class="container">
+                    <?php endif; ?>
+                        <img class="slide-image" src="<?= $subArgs->slider_image ?>">
+                            <h2><?= $subArgs->slider_header ?></h2>
+                            <h4><?= $subArgs->slider_subheader ?></h4>
+                            <?php get_template_part('template-parts/flexible/content', 'button'); ?>
+                    <?php if ($args->content_slider_container_in_slide): ?>
+                        </div>
+                    <?php endif; ?>
                 </div>
             <?php endwhile; ?>
-
         </div>
         <?php else :
             // no rows found
@@ -48,6 +63,21 @@ if (have_rows('content_slider_slides')): ?>
         $autoplay_speed = get_sub_field('content_slider_autoplay_speed');
         $slides_to_show = get_sub_field('content_slider_slides_to_show');
         $slides_to_scroll = get_sub_field('content_slider_slides_to_scroll');
+
+//        $subArgs = ft_get_sub_fields(array(
+//            'content_slider_adaptive_height',
+//            'content_slider_autoplay',
+//            'content_slider_arrows',
+//            'content_slider_dots',
+//            'content_slider_fade',
+//            'content_slider_loop',
+//            'content_slider_autoplay_speed',
+//            'content_slider_slides_to_show',
+//            'content_slider_slides_to_scroll',
+//        ));
+//
+//        $slides_to_show = $subArgs->content_slider_slides_to_show ? "$subArgs->content_slider_slides_to_show" : "1";
+//        $autoplay_speed = $subArgs->content_slider_autoplay ? "$subArgs->content_slider_autoplay" : "5000";
 
         if (!$slides_to_show) {
             $slides_to_show = '1';
@@ -89,12 +119,12 @@ if (have_rows('content_slider_slides')): ?>
             $loop = 'false';
         }
 
-        if ($slider_option == 'slick'): ?>
+        if ($oArgs->slider_option == 'slick'): ?>
             <script type="text/javascript">
                 (function ($) {
                     $(document).ready(function () {
 
-                        $('.slider-flex.<?=$unique_class;?>').slick({
+                        $('.slider-flex.<?=$args->content_slider_unique_class;?>').slick({
                             accessibility: true,
                             adaptiveHeight: <?=$adaptive_height;?>,
                             autoplay: <?=$autoplay;?>,
@@ -111,7 +141,7 @@ if (have_rows('content_slider_slides')): ?>
                 })(jQuery);
 
             </script>
-        <?php elseif ($slider_option == 'owl'): ?>
+        <?php elseif ($oArgs->slider_option == 'owl'): ?>
             <script type="text/javascript">
                 <?php
                 if ($fade) {
@@ -122,7 +152,7 @@ if (have_rows('content_slider_slides')): ?>
                 }?>
                 (function ($) {
                     $(document).ready(function () {
-                        $('.slider-flex.<?=$unique_class;?>').slick({
+                        $('.slider-flex.<?=$args->content_slider_unique_class;;?>').slick({
                             items: <?=$slides_to_show;?>,
                             loop: <?=$loop;?>,
                             nav: <?=$arrows;?>,
