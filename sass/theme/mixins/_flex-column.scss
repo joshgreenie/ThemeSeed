@@ -1,16 +1,53 @@
-@mixin flex-column($num, $col_spacing:10, $row_spacing:10){
+@mixin flex-item($num, $col_spacing:10, $row_spacing:10 ,$offset:0){
   $width: 100% / $num;
   $pad: $col_spacing * ($num - 1) / $num * 2;
+
 
   flex-basis: calc(#{$width} - #{$pad}px);
   min-width: calc(#{$width} - #{$pad}px);
   margin: #{$row_spacing / 2}px #{$col_spacing}px;
 
-  &:nth-child(#{$num}n + 1){
+  &:nth-child(#{$num}n + #{$offset + 1}){
+    margin: #{$row_spacing / 2}px #{$col_spacing}px;
     margin-left: 0;
   }
 
-  &:nth-child(#{$num}n){
+  &:nth-child(#{$num}n + #{$offset}){
+    margin: #{$row_spacing / 2}px #{$col_spacing}px;
     margin-right: 0;
+  }
+}
+
+@mixin flex-column(
+  $class,
+  $col_spacing:20 10 0,
+  $row_spacing:20 10 0,
+  $breakpoint: $breakpoint-small-desktop,
+  $breakfull: $breakpoint-small-tablet,
+  $scope:max,
+  $offset:0,
+  $length:5) {
+
+
+  @for $i from 2 to $length {
+    .columns-#{$i} > .#{$class}.flex-item {
+      @include flex-item($i, nth($col_spacing, 1),  nth($row_spacing, 1), $offset);
+
+      @include media_q($breakpoint, $scope ) {
+
+        @if ($i % 2 != 0) and ($i > 1) {
+
+          @include flex-item((($i - 1)/2),  nth($col_spacing, 2), nth($row_spacing, 2), $offset);
+        }
+        @if ($i % 2 == 0) and ($i > 2) {
+
+          @include flex-item(($i/2), nth($col_spacing, 2),  nth($row_spacing, 2), $offset);
+        }
+      }
+      @include media_q($breakfull, max ) {
+
+        @include flex-item(1, nth($col_spacing, 3), nth($row_spacing, 3), $offset);
+      }
+    }
   }
 }

@@ -20,13 +20,11 @@ get_header(); ?>
     <div id="flex" class="content-area">
         <!-- put the grid containers in your individual flex containers -->
         <?php
-        while ( have_posts() ) : the_post();
-
-            //https://generatewp.com/wp_query/
-
-            get_template_part('template-parts/content', 'flex');
-
-        endwhile; // End of the loop.
+        if (have_rows('flexible_fields')) :
+            while (have_rows('flexible_fields')) : the_row();
+                ft_template(get_row_layout());
+            endwhile;
+        endif;
         ?>
     </div>
 

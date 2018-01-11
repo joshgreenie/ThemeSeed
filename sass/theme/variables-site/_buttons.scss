@@ -1,15 +1,40 @@
 
 
-$button__border: 1px solid #4d90e2;
-$button__border__color-hover: #4d90e2;
-$button__border__color-focus: #4d90e2;
-$button__background-color: #fff;
-$button__background-color-hover: #4d90e2;
-$button__text-color: #4d90e2;
-$button__text-color-hover: #fff;
-$button__font-size: 1rem;
-$button__font-family: 'Open Sans', sans-serif;
-$button__font-weight: 300;
-$button__border-radius: 5px;
+$button__text-color: $PB__Black;
+$button__text-color-hover: $PB__Black;
+$button__background-color: transparent;
+$button__background-color-hover: $PB__White;
+//$button__background-color-hover: $color__dark-grey;
+$button__border: 2px solid $PB__Green;
+$button__border__color-hover: $PB__Green;
+$button__border__color-focus: $PB__Green;
+$button__font-size: 28px;
+$button__font-family: $font__secondary;
+$button__font-weight: bold;
+$button__border-radius: 50px;
 $button__padding: 15px 25px;
+
+$button__light_text-color: $PB__Black;
+$button__light_text-color-hover: $PB__White;
+$button__light_background-color: $PB__White;
+$button__light_background-color-hover: $PB__Red;
+$button__light_border: 2px solid $PB__Red;
+
+$button__dark_text-color: $PB__White;
+$button__dark_text-color-hover: $PB__Black;
+$button__dark_background-color: $PB__Red;
+$button__dark_background-color-hover: transparent;
+$button__dark_border: 1px solid $PB__Red;
+$button__dark_border__color-hover: $PB__Red;
+$button__dark_border__color-focus: $PB__Red;
+$button__dark_font-size: $button__font-size;
+$button__dark_font-family: $font__secondary;
+$button__dark_font-weight: $button__font-weight;
+$button__dark_border-radius: $button__border-radius;
+$button__dark_padding: $button__padding;
+
+
+$button__mobile_font-size: 18px;
+$button__mobile_dark_font-size: $button__mobile_font-size;
+
 

@@ -1,0 +1,14 @@
+.role-franchise_owner #wpwrap {
+  .acf-js-tooltip,
+  .acf-actions {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .acf-fields > .acf-tab-wrap .acf-tab-group li {
+    a.acf-tab-button[data-key="field_5a4408be8207f"],
+    a.acf-tab-button[data-key="field_5a44059694b60"] {
+      display: none !important;
+      visibility: hidden !important;
+    }
+  }
+}

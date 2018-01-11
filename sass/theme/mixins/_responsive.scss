@@ -1,24 +1,50 @@
-@mixin desktop(){
+@mixin desktop-span(){
   @media screen and (min-width: $breakpoint-small-desktop) and (max-width: $breakpoint-desktop)  {
     @content;
   }
 }
 
-@mixin desktop-sm(){
+
+@mixin desktop-sm-span(){
   @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-small-desktop) {
     @content;
   }
 }
 
-@mixin tablet(){
+@mixin tablet-span(){
   @media screen and (min-width: $breakpoint-small-tablet) and (max-width: $breakpoint-tablet) {
     @content;
   }
 }
 
 
-@mixin tablet-sm(){
+@mixin tablet-sm-span(){
   @media screen and (min-width: $breakpoint-phone) and (max-width: $breakpoint-small-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop(){
+  @media screen and (max-width: $breakpoint-desktop)  {
+    @content;
+  }
+}
+
+@mixin desktop-sm(){
+  @media screen and (max-width: $breakpoint-small-desktop) {
+    @content;
+  }
+}
+
+@mixin tablet(){
+  @media screen and (max-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+
+@mixin tablet-sm(){
+  @media screen and (max-width: $breakpoint-small-tablet) {
     @content;
   }
 }
@@ -26,6 +52,20 @@
 
 @mixin mobile(){
   @media screen and (max-width: $breakpoint-phone) {
+    @content;
+  }
+}
+
+@mixin mobile-sm(){
+  @media screen and (max-width: $breakpoint-phone-sm) {
+    @content;
+  }
+}
+
+
+
+@mixin media_q($breakpoint:$breakpoint-tablet, $scope: max){
+  @media screen and (#{$scope}-width: #{$breakpoint}) {
     @content;
   }
 }

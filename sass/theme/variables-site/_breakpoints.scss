@@ -1,5 +1,17 @@
+$breakpoint-phone-sm: 360px;
 $breakpoint-phone: 500px;
 $breakpoint-small-tablet: 768px;
 $breakpoint-tablet: 980px;
 $breakpoint-small-desktop: 1200px;
 $breakpoint-desktop: 1500px;
+
+$breakpoints: 360px,500px,768px,980px,1200px,1500px;
+$breakpoint_handle: mobile-sm, mobile, tablet-sm, tablet, desktop-sm, desktop;
+$breakpoint_vars: $breakpoint-phone-sm, $breakpoint-phone, $breakpoint-small-tablet, $breakpoint-tablet, $breakpoint-small-desktop, $breakpoint-desktop;
+
+@each $breakpoint in $breakpoints {
+  $index: index($breakpoints, $breakpoint);
+  @media screen and (max-width:$breakpoint) {
+
+  }
+}

@@ -2,21 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2017f48d-735c-413a-92a2-9cb016735ff7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/extras/extras.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page-default.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/_bourbon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/theme/normalize/forms/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/theme/normalize/typography/_headings.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/content-sidebar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layouts/sidebar-content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/normalize/forms/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/_bourbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/normalize/typography/_headings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/templates/_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/templates/_templates.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/inc/extras/acf_layout_titles.php" afterPath="$PROJECT_DIR$/inc/filters/acf_layout_titles.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/flex/_columns.scss" afterPath="$PROJECT_DIR$/sass/layouts/flex/_columns.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/flex/_content.scss" afterPath="$PROJECT_DIR$/sass/layouts/flex/_content.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/flex/_flex.scss" afterPath="$PROJECT_DIR$/sass/layouts/flex/_flex.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/flex/_slider-content.scss" afterPath="$PROJECT_DIR$/sass/layouts/flex/_slider-content.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/_normalize.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/_normalize.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/elements/_elements.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/elements/_elements.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/elements/_lists.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/elements/_lists.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/elements/_tables.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/elements/_tables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_animated.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_core.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_fixed-width.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_icons.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_larger.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_list.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_mixins.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_path.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_screen-reader.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_screen-reader.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_stacked.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/_variables.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/font-awesome/font-awesome.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/font-awesome/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/forms/_fields.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/forms/_fields.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/forms/_forms.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/forms/_forms.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/helpers/_scales.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/helpers/_scales.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/helpers/_timing-functions.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/helpers/_timing-functions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_border-color.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_border-color.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_border-radius.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_border-radius.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_border-style.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_border-style.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_border-width.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_border-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_buttons.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_buttons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_clearfix.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_clearfix.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_contrast-switch.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_contrast-switch.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_ellipsis.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_ellipsis.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_font-face.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_font-face.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_font-stacks.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_font-stacks.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_hide-text.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_hide-text.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_hide-visually.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_hide-visually.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_margin.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_margin.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_modular-scale.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_modular-scale.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_padding.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_padding.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_position.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_position.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_prefixer.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_prefixer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_shade.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_shade.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_size.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_size.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_strip-unit.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_strip-unit.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_text-inputs.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_text-inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_tint.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_tint.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_triangle.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_triangle.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/library/_word-wrap.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/library/_word-wrap.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/settings/_settings.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/settings/_settings.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_assign-inputs.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_assign-inputs.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_bourbon-get-setting.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_bourbon-get-setting.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_collapse-directionals.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_collapse-directionals.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_directional-values.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_directional-values.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_font-source-declaration.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_font-source-declaration.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/utilities/_unpack.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/utilities/_unpack.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_contains-falsy.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_contains-falsy.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_contains.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_contains.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_is-length.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_is-length.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_is-light.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_is-light.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_is-number.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_is-number.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/bourbon/validators/_is-size.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/bourbon/validators/_is-size.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/jeet/_functions.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/jeet/_functions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/jeet/_grid.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/jeet/_grid.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/jeet/_jeet.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/jeet/_jeet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/jeeton/jeet/_settings.scss" afterPath="$PROJECT_DIR$/sass/theme/inc/jeet/_settings.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/layout/_content-sidebar.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/layout/_content-sidebar.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/layout/_sidebar-content.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/layout/_sidebar-content.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/media/_captions.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/media/_captions.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/media/_galleries.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/media/_galleries.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/media/_media.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/media/_media.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/modules/_accessibility.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/modules/_accessibility.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/modules/_alignments.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/modules/_alignments.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/modules/_clearings.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/modules/_clearings.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/modules/_infinite-scroll.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/modules/_infinite-scroll.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/site/_site.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/site/_site.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/site/primary/_comments.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/site/primary/_comments.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/site/primary/_posts-and-pages.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/site/primary/_posts-and-pages.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/site/secondary/_widgets.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/site/secondary/_widgets.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/typography/_copy.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/typography/_copy.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/normalize/typography/_typography.scss" afterPath="$PROJECT_DIR$/sass/theme/normalize/typography/_typography.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_desktop.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_desktop.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_phone.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_phone.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_queries.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_queries.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_sm-desktop.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_sm-desktop.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_sm-tablet.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_sm-tablet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/responsive/_tablet.scss" afterPath="$PROJECT_DIR$/sass/layouts/responsive/_tablet.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/sass.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_footer.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_footer.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_header.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_header.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_links.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_links.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_menus.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_menus.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_navigation.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_navigation.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sass/theme/navigation/_social.scss" afterPath="$PROJECT_DIR$/sass/layouts/navigation/_social.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Seed.iml" afterPath="$PROJECT_DIR$/.idea/Seed.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/theme/nav.php" afterPath="$PROJECT_DIR$/inc/theme/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/theme/theme-setup.php" afterPath="$PROJECT_DIR$/inc/theme/theme-setup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page.php" afterPath="$PROJECT_DIR$/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/settings/widgets.php" afterPath="$PROJECT_DIR$/inc/settings/widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page-flexible.php" afterPath="$PROJECT_DIR$/page-flexible.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss" afterPath="$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/mixins/_responsive.scss" afterPath="$PROJECT_DIR$/sass/theme/mixins/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_breakpoints.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_breakpoints.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_buttons.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_colors.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_colors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_forms.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_structure.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_structure.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_typeface.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_typeface.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_typography.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/theme/variables-site/_variables-site.scss" afterPath="$PROJECT_DIR$/sass/theme/variables-site/_variables-site.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css.map" afterPath="$PROJECT_DIR$/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/content-flex.php" afterPath="$PROJECT_DIR$/template-parts/content-flex.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-button.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-button.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-content.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-gallery.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-image.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-posts.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-posts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template-parts/flexible/content-slider.php" afterPath="$PROJECT_DIR$/template-parts/flexible/content-slider.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,73 +142,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ft_element.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/functions/ft_element.php">
+      <file leaf-file-name="_flex-column.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#6#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-card.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-card.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="element.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/services/element.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content-posts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-posts.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,34 +155,88 @@
       <file leaf-file-name="content-flex.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template-parts/content-flex.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-flexible.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page-flexible.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout-shelf.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout-sections/layout-shelf.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-              <folding>
-                <element signature="e#2222#2525#0#HTML" expanded="true" />
-                <element signature="e#2592#2650#0#HTML" expanded="true" />
-                <element signature="e#2823#2889#0#HTML" expanded="true" />
-              </folding>
+              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page.php">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/admin/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="e#6#356#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/util.php">
+      <file leaf-file-name="layout-gallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout-sections/layout-gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ft_template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/functions/ft_template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout-header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout-sections/layout-header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="acf_layout_titles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/filters/acf_layout_titles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="28" column="81" lean-forward="true" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -142,17 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slick-t</find>
-      <find>slick</find>
-      <find>column-2</find>
-      <find>button</find>
-      <find>hover</find>
-      <find>columns-</find>
-      <find>body.addClass(</find>
-      <find>.columns-1</find>
-      <find>h1</find>
-      <find>color__border-button</find>
-      <find>__border</find>
       <find>last-chil</find>
       <find>4 .flex-item</find>
       <find>$breakpoint-sm-tablet</find>
@@ -161,7 +254,6 @@
       <find>gallery</find>
       <find>user</find>
       <find>style.css</find>
-      <find>$</find>
       <find>.slick-arrow</find>
       <find>$font__main</find>
       <find>$heading_h1_margins</find>
@@ -172,6 +264,18 @@
       <find>$slider_option</find>
       <find>content_slider</find>
       <find>close();</find>
+      <find>firetoss_seed-josh</find>
+      <find>firetoss_seed_widgets_init</find>
+      <find>$</find>
+      <find>flex-col</find>
+      <find>flex-column</find>
+      <find>$size__site-sidebar</find>
+      <find>j-colu</find>
+      <find>header</find>
+      <find>extend</find>
+      <find>h4</find>
+      <find>.h6</find>
+      <find>styles</find>
     </findStrings>
     <replaceStrings>
       <replace>b_field('post_loop</replace>
@@ -184,6 +288,9 @@
       <replace>if $i ==</replace>
       <replace>&lt;?=$</replace>
       <replace>render('close');</replace>
+      <replace>firetoss_seed</replace>
+      <replace>$args-&gt;</replace>
+      <replace>$section</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,35 +299,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/normalize/forms/_fields.scss" />
-        <option value="$PROJECT_DIR$/archive.php" />
-        <option value="$PROJECT_DIR$/sass/theme/variables-site/_buttons.scss" />
-        <option value="$PROJECT_DIR$/sass/normalize/media/_galleries.scss" />
-        <option value="$PROJECT_DIR$/sass/normalize/forms/_buttons.scss" />
-        <option value="$PROJECT_DIR$/sass/normalize/typography/_headings.scss" />
-        <option value="$PROJECT_DIR$/inc/extras.php" />
-        <option value="$PROJECT_DIR$/inc/theme-options.php" />
-        <option value="$PROJECT_DIR$/inc/widgets.php" />
-        <option value="$PROJECT_DIR$/inc/content-width.php" />
-        <option value="$PROJECT_DIR$/inc/theme-setup.php" />
-        <option value="$PROJECT_DIR$/inc/registration.php" />
-        <option value="$PROJECT_DIR$/inc/config/registration.php" />
-        <option value="$PROJECT_DIR$/inc/settings/template-tags.php" />
-        <option value="$PROJECT_DIR$/inc/settings/theme-options.php" />
-        <option value="$PROJECT_DIR$/inc/config/styles.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/js/firetoss.js" />
-        <option value="$PROJECT_DIR$/sass/flex/_slider-content.scss" />
-        <option value="$PROJECT_DIR$/inc/config/scripts.php" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/sass/flex/_columns.scss" />
         <option value="$PROJECT_DIR$/sass/normalize/typography/_typography.scss" />
-        <option value="$PROJECT_DIR$/sass/theme/variables-site/_typography.scss" />
-        <option value="$PROJECT_DIR$/sass/theme/variables-site/_typeface.scss" />
-        <option value="$PROJECT_DIR$/sass/style.scss" />
-        <option value="$PROJECT_DIR$/sass/theme/mixins/_responsive.scss" />
         <option value="$PROJECT_DIR$/sass/responsive/_queries.scss" />
-        <option value="$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss" />
         <option value="$PROJECT_DIR$/inc/theme/theme-setup.php" />
         <option value="$PROJECT_DIR$/inc/theme/nav.php" />
         <option value="$PROJECT_DIR$/inc/extras/body_class.php" />
@@ -231,18 +311,45 @@
         <option value="$PROJECT_DIR$/inc/extras/acf_layout_titles.php" />
         <option value="$PROJECT_DIR$/inc/woocommerce/product-image.php" />
         <option value="$PROJECT_DIR$/inc/functions/ft_element.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-posts.php" />
-        <option value="$PROJECT_DIR$/template-parts/flexible/content-content.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-image.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-button.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-slider.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-gallery.php" />
         <option value="$PROJECT_DIR$/template-parts/flexible/content-card.php" />
         <option value="$PROJECT_DIR$/inc/services/element.php" />
-        <option value="$PROJECT_DIR$/template-parts/content-flex.php" />
         <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/template-parts/flexible/content-content.php" />
+        <option value="$PROJECT_DIR$/acf-json/group_58221fe59a656.json" />
         <option value="$PROJECT_DIR$/util.php" />
+        <option value="$PROJECT_DIR$/inc/settings/widgets.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/sass/theme/mixins/_mixins.scss" />
+        <option value="$PROJECT_DIR$/layout-sections/layout-slider.php" />
+        <option value="$PROJECT_DIR$/sass/theme/variables-site/_typeface.scss" />
+        <option value="$PROJECT_DIR$/sass/normalize/elements/_lists.scss" />
+        <option value="$PROJECT_DIR$/sass/normalize/elements/_tables.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/normalize/_normalize.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/inc/bourbon/_bourbon.scss" />
+        <option value="$PROJECT_DIR$/sass/layouts/_layouts.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/_theme.scss" />
+        <option value="$PROJECT_DIR$/sass/layouts/flex/_flex.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/inc/_inc.scss" />
+        <option value="$PROJECT_DIR$/sass/layouts/flex/_columns.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/mixins/_responsive.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss" />
+        <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/layout-sections/layout-card.php" />
+        <option value="$PROJECT_DIR$/sass/theme/normalize/media/_captions.scss" />
+        <option value="$PROJECT_DIR$/sass/theme/variables-site/_typography.scss" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/layout-sections/tmp/layout-heading.php" />
+        <option value="$PROJECT_DIR$/layout-sections/layout-header.php" />
+        <option value="$PROJECT_DIR$/template-parts/content-flex.php" />
+        <option value="$PROJECT_DIR$/page-flexible.php" />
+        <option value="&lt;fd42805f-b85d-4ae8-9dea-d15fa4bf7b94&gt;/public_html/wiki.devft.com/wp-config.php" />
+        <option value="$PROJECT_DIR$/layout-sections/layout-shelf.php" />
       </list>
     </option>
   </component>
@@ -254,9 +361,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1927" />
-    <option name="width" value="1796" />
-    <option name="height" value="1047" />
+    <option name="x" value="2147" />
+    <option name="y" value="16" />
+    <option name="width" value="1547" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -276,7 +384,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Seed" type="cbb8eebc:String" user="Seed" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,6 +402,61 @@
             <path>
               <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
               <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="actions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extras" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="filters" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="languages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout-sections" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Seed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -302,24 +475,24 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="elem&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/services/element.php&#10;ele&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/functions/ft_element.php&#10;fun&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;extra&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/extras/extras.php&#10;colu&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/flex/_columns.scss&#10;footer&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/footer.php&#10;button&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/template-parts/flexible/content-button.php&#10;slide&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/template-parts/flexible/content-slider.php&#10;style&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;styl&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;func&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;slider&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/flex/_slider-content.scss&#10;fireto&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss-owl.js&#10;firet&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss.js&#10;st&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;menu&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/navigation/_menus.scss&#10;function&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;firetos&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss.js&#10;varia&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/variables-site/_variables-site.scss" />
+    <property name="SearchEverywhereHistoryKey" value="she&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/layout-sections/layout-shelf.php&#10;flex&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/mixins/_flex-column.scss&#10;head&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/normalize/typography/_headings.scss&#10;colu&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/layouts/flex/_columns.scss&#10;styl&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;elem&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/services/element.php&#10;ele&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/functions/ft_element.php&#10;fun&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;extra&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/inc/extras/extras.php&#10;footer&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/footer.php&#10;button&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/template-parts/flexible/content-button.php&#10;slide&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/template-parts/flexible/content-slider.php&#10;style&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;func&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;slider&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/flex/_slider-content.scss&#10;fireto&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss-owl.js&#10;firet&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss.js&#10;st&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/style.css&#10;menu&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/navigation/_menus.scss&#10;function&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/functions.php&#10;firetos&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/js/firetoss.js&#10;varia&#9;FILE&#9;file://C:/Users/Josh/Dropbox (Firetoss)/Web/Seed/sass/theme/variables-site/_variables-site.scss" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/style.css" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/style.css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\img" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\theme\variables-site" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\js" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\template-parts" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\node_modules" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\theme" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\layout-sections\flex" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc\services" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\theme\mixins" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc\settings" />
-      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc\extras" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\inc\filters" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\layouts" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\layouts\flex" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\theme\inc" />
+      <recent name="C:\Users\Josh\Dropbox (Firetoss)\Web\Seed\sass\theme\inc\jeeton\bourbon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,12 +620,33 @@
       <workItem from="1510940816378" duration="5558000" />
       <workItem from="1511037259908" duration="1843000" />
       <workItem from="1511223084434" duration="2384000" />
-      <workItem from="1511281677851" duration="16573000" />
+      <workItem from="1511281677851" duration="16696000" />
+      <workItem from="1511303812735" duration="458000" />
+      <workItem from="1511322880470" duration="732000" />
+      <workItem from="1511368544402" duration="2197000" />
+      <workItem from="1511374156094" duration="580000" />
+      <workItem from="1511380962318" duration="1044000" />
+      <workItem from="1511386212451" duration="722000" />
+      <workItem from="1513105697344" duration="8575000" />
+      <workItem from="1513192326973" duration="15616000" />
+      <workItem from="1513729486697" duration="358000" />
+      <workItem from="1513797799099" duration="3390000" />
+      <workItem from="1514400872074" duration="5000" />
+      <workItem from="1514401288655" duration="121000" />
+      <workItem from="1514402002918" duration="3393000" />
+      <workItem from="1514830512397" duration="597000" />
+      <workItem from="1514912868750" duration="597000" />
+      <workItem from="1514920484883" duration="117000" />
+      <workItem from="1514920611493" duration="42000" />
+      <workItem from="1514920659977" duration="4809000" />
+      <workItem from="1515525016021" duration="1320000" />
+      <workItem from="1515621841819" duration="1901000" />
+      <workItem from="1515628974843" duration="92000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122873000" />
+    <option name="totallyTimeSpent" value="169662000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,27 +658,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1927" y="0" width="1796" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="2147" y="16" width="1547" height="1018" extended-state="0" />
     <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3118162" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15601882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66849613" sideWeight="0.5086042" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11086718" sideWeight="0.48759222" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66849613" sideWeight="0.4913958" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27088213" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15437788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821077" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12244898" sideWeight="0.48759222" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13038549" sideWeight="0.4913958" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -522,389 +715,376 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inc/settings/template-tags.php">
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/elements/_elements.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/settings/theme-options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/firetoss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="73" column="20" lean-forward="false" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/flex/_slider-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77574">
-          <caret line="3694" column="0" lean-forward="false" selection-start-line="3694" selection-start-column="0" selection-end-line="3694" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/normalize/jeeton/jeet/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/config/styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/config/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/normalize/typography/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/normalize/typography/_headings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/variables-site/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/flex/_columns.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/mixins/_mixins-master.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-189">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/variables-site/_variables-site.scss">
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/elements/_lists.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="504">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/variables-site/_typeface.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1281">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/variables-site/_breakpoints.scss">
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/elements/_tables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/responsive/_queries.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search.php">
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/font-awesome/_animated.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/jeet/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/jeet/_jeet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/jeet/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/jeet/_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/helpers/_scales.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/helpers/_timing-functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/library/_size.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/library/_tint.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/library/_shade.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/library/_margin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/modules/_accessibility.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/modules/_alignments.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/modules/_clearings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/layout/_sidebar-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/layout/_content-sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/modules/_infinite-scroll.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/_normalize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4431">
+          <caret line="211" column="0" lean-forward="false" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/bourbon/_bourbon.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layouts/_layouts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layouts/flex/_flex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/_theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/inc/_inc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layouts/flex/_columns.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/theme/mixins/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="924">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/functions/ft_get_fields.php">
+    <entry file="file://$PROJECT_DIR$/sass/admin/admin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/extras.php" />
-    <entry file="file://$PROJECT_DIR$/inc/functions/ft_get_options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/woo_support.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="380" column="14" lean-forward="true" selection-start-line="380" selection-start-column="14" selection-end-line="380" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/theme/nav.php">
+    <entry file="file://$PROJECT_DIR$/layout-sections/layout-card.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/theme/theme-setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/login_image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/gravity_forms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/body_class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/extras/acf_layout_titles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/woocommerce/product-image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/functions/ft_classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/theme/content-width.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="76" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-button.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/functions/ft_element.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/style.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-card.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/services/element.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/flexible/content-posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template-parts/partials/content-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/media/_galleries.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/media/_captions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/sass.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="30" column="30563" lean-forward="false" selection-start-line="30" selection-start-column="30561" selection-end-line="30" selection-end-column="30563" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/normalize/typography/_headings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/variables-site/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80745">
+          <caret line="3845" column="0" lean-forward="false" selection-start-line="3845" selection-start-column="0" selection-end-line="3845" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout-sections/tmp/layout-heading.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout-sections/layout-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template-parts/content-flex.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="99" column="28" lean-forward="false" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding>
-            <element signature="e#2222#2525#0#HTML" expanded="true" />
-            <element signature="e#2592#2650#0#HTML" expanded="true" />
-            <element signature="e#2823#2889#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page-default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="147">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
+    <entry file="file://$PROJECT_DIR$/inc/functions/ft_template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#6#356#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util.php">
+    <entry file="file://$PROJECT_DIR$/page-flexible.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="210">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout-sections/layout-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/theme/mixins/_flex-column.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/filters/acf_layout_titles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="28" column="81" lean-forward="true" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout-sections/layout-shelf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/admin/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

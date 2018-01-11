@@ -1,0 +1,91 @@
+div#flex {
+  display: inline-block;
+  width: 100%;
+  font-size: 0;
+  .section {
+    padding: 50px 0;
+    &.no-padding {
+      padding: 0px 0;
+
+    }
+    &:not(.no-padding) .header h2.flex-header {
+      margin-top: 0;
+    }
+
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    > * {
+      font-size: initial;
+    }
+  }
+}
+
+
+#flex .max-grid.row-wrapper {
+  max-width: 2000px;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+  float: none;
+}
+
+.row-wrapper {
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  &.no-margin {
+    margin: 0 !important;
+  }
+  &.columns-1 > .flex-item {
+    clear: both;
+    @include flex-item(1, 0, 0);
+  }
+
+  $column_classes: flex-item, flex-item, flex-item, flex-item, flex-item;
+  $columns: 1, 2, 3, 4, 5;
+  $columns_desktop: 1, 2, 3, 2, 3;
+  $columns_tablet: 1, 2, 1, 2, 3;
+  $columns_mobile: 1, 1, 1, 1, 1;
+
+  $col_space: 20, 20, 40, 20, 20;
+  $col_space_desktop: 20, 20, 20, 20, 20;
+  $col_space_tablet: 20, 20, 20, 20, 20;
+  $col_space_mobile: 20, 0, 0, 20, 20;
+
+  $row_space: 20, 20, 20, 20, 20;
+  $row_space_desktop: 20, 20, 20, 20, 20;
+  $row_space_tablet: 20, 20, 20, 20, 20;
+  $row_space_mobile: 20, 0, 20, 20, 20;
+
+  @for $i from 2 through length($columns) {
+
+    &.columns-#{nth($columns,$i)} > .#{nth($column_classes,$i)} {
+
+      @include flex-item(nth($columns, $i), nth($col_space, $i), nth($row_space, $i));
+
+      @include desktop-sm {
+        @include flex-item(nth($columns_desktop, $i), nth($col_space_desktop, $i), nth($row_space_desktop, $i));
+      }
+      @include tablet {
+        @include flex-item(nth($columns_tablet, $i), nth($col_space_tablet, $i), nth($row_space_tablet, $i));
+      }
+      @include tablet-sm {
+        @include flex-item(nth($columns_mobile, $i), nth($col_space_mobile, $i), nth($row_space_mobile, $i));
+      }
+    }
+    &.no-margin.columns-#{nth($columns,$i)} > .flex-item {
+      @include flex-item(nth($columns, $i), 0, 0);
+
+      @include desktop-sm {
+        @include flex-item(nth($columns_desktop, $i), 0, 0);
+      }
+      @include tablet {
+        @include flex-item(nth($columns_desktop, $i), 0, 0);
+      }
+      @include tablet-sm {
+        @include flex-item(nth($columns_mobile, $i), 0, 0);
+      }
+    }
+  }
+}

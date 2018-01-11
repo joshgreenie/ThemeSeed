@@ -1,60 +1,23 @@
 //headings
 
-//h1
-$heading_h1_family:$font__main;
-$heading_h1_weight:600;
-$heading_h1_size: 2rem;
-$heading_h1_color: #000;
-$heading_h1_line-height: 1.2;
-$heading_h1_margins:20px 0;
+$headings:          h1,   h2,   h3,   h4,   h5,   h6;
+$heading_sizes:     38px, 32px, 28px, 24px, 22px, 18px;
+$heading_m_sizes:   32px, 28px, 24px, 22px, 20px, 16px;
+$heading_s_sizes:   28px, 24px, 22px, 20px, 18px, 16px;
 
-//h2
-$heading_h2_family:$font__main;
-$heading_h2_weight:600;
-$heading_h2_size: 1.8rem;
-$heading_h2_color: #000;
-$heading_h2_line-height: 1.2;
-$heading_h2_margins:20px 0;
+$heading_family:$font__secondary;
+$heading_color:$color__dark-grey;
+$heading_weight:bold;
+$heading_line-heights: 1.2;
+$heading_margins:20px 0;
+$heading_mobile_margins:10px 0;
 
-//h3
-$heading_h3_family:$font__secondary;
-$heading_h3_weight:600;
-$heading_h3_size: 1.6rem;
-$heading_h3_color: #000;
-$heading_h3_line-height: 1.2;
-$heading_h3_margins:20px 0;
-
-//h4
-$heading_h4_family:$font__secondary;
-$heading_h4_weight:400;
-$heading_h4_size: 1.4rem;
-$heading_h4_color: #000;
-$heading_h4_line-height: 1.2;
-$heading_h4_margins:20px 0;
-
-//h5
-$heading_h5_family:$font__secondary;
-$heading_h5_weight:400;
-$heading_h5_size: 1.2rem;
-$heading_h5_color: #000;
-$heading_h5_line-height: 1.2;
-$heading_h5_margins:20px 0;
-
-//h6
-$heading_h6_family:$font__secondary;
-$heading_h6_weight:400;
-$heading_h6_size: 1rem;
-$heading_h6_color: #000;
-$heading_h6_line-height: 1.2;
-$heading_h6_margins:20px 0;
-
-
+$body_line-height: 1.3;
 //p
 $color__text-screen: #21759b;
 $color__text-main: #404040;
 
-$color__link: royalblue;
+$color__link: $heading_color;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
-
 

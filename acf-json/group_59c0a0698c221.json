@@ -1,0 +1,159 @@
+{
+    "key": "group_59c0a0698c221",
+    "title": "Post Loop",
+    "fields": [
+        {
+            "key": "field_59c0a08a940bf",
+            "label": "Post Type",
+            "name": "post_type",
+            "type": "select",
+            "instructions": "add custom post types in the 'Post Loop' custom field group",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "post": "post",
+                "page": "page"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59c0a153940c0",
+            "label": "Order By",
+            "name": "order_by",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "none",
+                "ID": "ID",
+                "author": "author",
+                "title": "title",
+                "name": "name",
+                "type": "type",
+                "date": "date",
+                "modified": "modified",
+                "parent": "parent",
+                "rand": "rand",
+                "comment_count": "comment_count",
+                "relevance": "relevance",
+                "menu_order": "menu_order",
+                "meta_value": "meta_value",
+                "meta_value_num": "meta_value_num",
+                "post__in": "post__in",
+                "post_name__in": "post_name__in",
+                "post_parent__in": "post_parent__in"
+            },
+            "default_value": [
+                "date"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59c0a176940c1",
+            "label": "Order",
+            "name": "order",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "desc": "desc",
+                "asc": "asc"
+            },
+            "default_value": [
+                "desc"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59c0a18c940c2",
+            "label": "Post Per Page",
+            "name": "post_per_page",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": -1,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_59c0a5c299adb",
+            "label": "Container in slide?",
+            "name": "container_in_slide",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1505797649
+}

@@ -68,7 +68,14 @@
       <paths name="Devft Primary">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/seed.devft.com/wp-content/themes/firetoss_seed-josh" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/seed.devft.com/wp-content/themes/firetoss_seed" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Droplet">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
@@ -149,6 +156,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="Hostgator-1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="In the Event">
         <serverdata>
           <mappings>
@@ -163,6 +177,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="PB- Live">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Premierequestrian ">
         <serverdata>
           <mappings>
@@ -170,7 +191,35 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="Screening Source">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TR Cpanel">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="TRDev">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Test">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Trader-Droplet">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

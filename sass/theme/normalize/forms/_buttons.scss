@@ -1,0 +1,78 @@
+div.button-wrapper a.button,
+a.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: $button__border;
+  border-radius: $button__border-radius;
+  padding: $button__padding;
+  background-color: $button__background-color;
+  color: $button__text-color;
+  font-size: $button__font-size;
+  font-family: $button__font-family;
+  font-weight: $button__font-weight;
+  text-decoration: none;
+  transition: all .35s ease;
+
+
+  @include tablet-sm{
+    font-size: $button__mobile_font-size;
+  }
+
+  &:hover {
+    border-color: $button__border__color-hover;
+    color: $button__text-color-hover;
+    background: $button__background-color-hover;
+  }
+
+  &:active,
+  &:focus {
+    border-color: $button__border__color-focus;
+    outline: none;
+  }
+  &:visited {
+    color:initial;
+  }
+
+  &.light {
+    border: $button__light_border;
+    background-color: $button__light_background-color;
+    color: $button__light_text-color;
+
+    &:hover {
+      color: $button__light_text-color-hover;
+      background: $button__light_background-color-hover;
+    }
+  }
+    
+  &.dark {
+    border: $button__dark_border;
+    border-radius: $button__dark_border-radius;
+    padding: $button__dark_padding;
+    background-color: $button__dark_background-color;
+    color: $button__dark_text-color;
+    font-size: $button__dark_font-size;
+    font-family: $button__dark_font-family;
+    font-weight: $button__dark_font-weight;
+    text-decoration: none;
+
+    @include tablet-sm{
+      font-size: $button__mobile_dark_font-size;
+    }
+    &:hover {
+      border-color: $button__dark_border__color-hover;
+      color: $button__dark_text-color-hover;
+      background: $button__dark_background-color-hover;
+    }
+
+    &:active,
+    &:focus {
+      border-color: $button__dark_border__color-focus;
+      outline: none;
+    }
+  }
+}
+
+
+
